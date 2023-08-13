@@ -1,0 +1,83 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  z-index: 1000;
+  margin-top: 10px;
+  top: 0px;
+  height: 30px;
+  display: flex;
+  position: sticky;
+  padding: 0px 20px;
+  align-items: center;
+  background-color:gray;
+  justify-content: space-between;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar-logo {
+  
+  margin: 0px;
+  font-size: 24px;
+  color:white;
+  font-weight: 600;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar-util {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.control-btn {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.control-btn > button {
+  height: 30px;
+  width: auto;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+  border-radius: 10px;
+}
+
+.control-btn > button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.navbar-util > p {
+  margin: 0px;
+  font-size: 16px;
+}
+
+i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.usernamedibba{
+  display: block;
+  pointer-events: none;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user > p {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  padding: 0px 10px;
+  font-family: "Noto Sans", sans-serif;
+}

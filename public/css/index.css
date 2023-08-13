@@ -1,0 +1,96 @@
+:root {
+  --success: #1a5d1a;
+  --delete: #fe0000;
+  --primary: #d285ff;
+  --secondary: #e1aeff;
+  --delete-secondary: #fe3939;
+  --icon: rgb(149, 149, 149);
+  --additional-primary: rgb(169, 169, 169);
+  --additional-secondary: rgb(196, 196, 196);
+}
+
+
+.link {
+  color: blue;
+  text-decoration: none;
+}
+
+.link-btn {
+  color: black;
+  text-decoration: none;
+}
+
+.link-neutral {
+  align-items: center;
+  color:white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.form-btn {
+  width: 180px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 20px;
+  background-color: azure;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.form-btn:hover {
+  background-color: blue; /* Green */
+}
+
+.invalid {
+  margin: 0px;
+  padding: 0px;
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400;
+  color: var(--delete);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.info {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--success);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.error {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--delete);
+  font-family: "Noto Sans", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 80vh;
+}
+
+.banner > img {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}

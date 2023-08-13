@@ -1,0 +1,11 @@
+body{
+    background-image: url('/imgs/login1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.signup-btn{
+    background-color:bisque;
+    border-radius: 10px;
+    margin-left: 80%;
+}
